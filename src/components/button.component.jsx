@@ -7,5 +7,4 @@ const Button=({action=()=>{},btnText,btnClass,...props}) => {
     </div>
   )
 }
-
 export default Button
