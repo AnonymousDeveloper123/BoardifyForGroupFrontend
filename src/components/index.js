@@ -1,4 +1,8 @@
 import Button from "./button.component";
 import Input from "./input.component";
 import DropdownComponent from "./dropdown.component";
-export { Button,Input,DropdownComponent }
+import Breadcrumb from "./breadcrumb.comp";
+import BoardAction from "./board-action.comp";
+
+
+export { Button,Input,DropdownComponent,Breadcrumb,BoardAction }

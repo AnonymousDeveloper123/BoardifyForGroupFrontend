@@ -4,4 +4,5 @@ import LoginPage from "./login.page";
 import ConfirmCodePage from "./confirm-code.page";
 import ComponentList from "./component-list.page";
 import Projects from "./projects.page";
-export { ForgotPassPage, SetNewPassPage, LoginPage, ConfirmCodePage,ComponentList,Projects }
+import BoardDesk from "../board-pages/board-desk.page";
+export { ForgotPassPage, SetNewPassPage, BoardDesk,LoginPage,ConfirmCodePage,ComponentList,Projects }
