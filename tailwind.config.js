@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         primary: '#114D72',
+        'board-bg':"#F7F8F6",
         'bg-secondary': '#F0F0F0',
         active: "#0EAFFF"
       },

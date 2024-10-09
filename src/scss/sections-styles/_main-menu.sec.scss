@@ -2,9 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 .main-menu{
     font-family: 'Montserrat', sans-serif;
+    @apply h-[99vh];
     .menu{
         li{
-            @apply px-2 py-1 text-start rounded-md cursor-pointer;
+            @apply relative text-[#292D32] text-[17px] font-semibold px-[10px] py-[12px] text-start rounded-md cursor-pointer flex gap-2 items-center hover:bg-[#F6F8FA];
+            &.active{
+                @apply bg-[#F6F8FA];
+            }
+            &:hover:before,&.active:before{
+                content: "";
+                @apply absolute top-0 right-0 bottom-0 rounded-e-md w-[20px] bg-primary;
+            }
         }
     }
 }
