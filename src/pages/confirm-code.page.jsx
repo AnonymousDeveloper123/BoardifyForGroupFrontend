@@ -1,8 +1,5 @@
-
 const ConfirmCodePage = () => {
-  return (
-    <div>ConfirmCodePage</div>
-  )
-}
+  return <div>ConfirmCodePage</div>;
+};
 
-export default ConfirmCodePage
+export default ConfirmCodePage;

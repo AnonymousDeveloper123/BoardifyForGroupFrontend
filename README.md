@@ -66,4 +66,8 @@ This project is licensed under the MIT License.
 ```
 
 You can copy this full markdown code into your `.md` file directly. It includes installation instructions, plugin details, production build commands, and license info.
+<<<<<<< HEAD
 >>>>>>> 896574d5f23b9a41520c9c22d80bb9c861a25d45
+=======
+>>>>>>> origin
+>>>>>>> origin/Saodatsbranch
