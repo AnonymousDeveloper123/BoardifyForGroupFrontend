@@ -1,0 +1,5 @@
+.project-card{
+    span[aria-type="level"]{
+        @apply px-2 py-1 rounded-md text-xs font-medium h-[25px];
+    }
+}
