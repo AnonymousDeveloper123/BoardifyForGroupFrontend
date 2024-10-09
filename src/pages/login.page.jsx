@@ -1,6 +1,10 @@
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <>
+      <div className="section">
+        text
+      </div>
+    </>
   )
 }
 
