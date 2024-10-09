@@ -1,7 +1,5 @@
 const SetNewPassPage = () => {
-  return (
-    <div>SetNewPassPage</div>
-  )
-}
+  return <div>SetNewPassPage</div>;
+};
 
-export default SetNewPassPage
+export default SetNewPassPage;
