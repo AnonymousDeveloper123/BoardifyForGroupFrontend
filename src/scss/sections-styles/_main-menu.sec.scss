@@ -1,0 +1,10 @@
+// import font montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+.main-menu{
+    font-family: 'Montserrat', sans-serif;
+    .menu{
+        li{
+            @apply px-2 py-1 text-start rounded-md cursor-pointer;
+        }
+    }
+}
