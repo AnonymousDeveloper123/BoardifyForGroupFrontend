@@ -1,5 +1,10 @@
 .project-card{
-    span[aria-type="level"]{
-        @apply px-2 py-1 rounded-md text-xs font-medium h-[25px];
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(105%)
+    }
+    span[ariaType="level"]{
+        @apply px-2 py-1 rounded-md text-xs font-bold h-[30px] flex items-center;
     }
 }
+

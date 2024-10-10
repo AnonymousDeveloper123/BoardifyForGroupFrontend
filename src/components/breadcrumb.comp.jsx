@@ -6,7 +6,7 @@ import { GreaterThan } from '../assets/svgs';
 const Breadcrumb = ({ paths }) => {
     return (
         <nav aria-label="breadcrumb">
-            <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+            <ol key={paths} className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 {
                     paths.map((path, index) => (
                         <>
@@ -15,7 +15,7 @@ const Breadcrumb = ({ paths }) => {
                                     {path.name}
                                 </Link>
                             </li>
-                            {index !== paths.length - 1 && <GreaterThan />}
+                            {index !== paths.length - 1 && <GreaterThan key={index} />}
                         </>
                     ))
                 }

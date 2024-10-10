@@ -1,5 +1,5 @@
 import { BiSearch } from "react-icons/bi"
-import { Button, DropdownComponent, Input } from "../components"
+import { Button, DropdownComponent, Input, Progress } from "../components"
 import { BsEye, BsEyeSlash } from "react-icons/bs"
 import { useState } from "react"
 // import { Dropdown } from "flowbite-react"
@@ -22,6 +22,7 @@ const ComponentList = () => {
         { "name": "English" },
         { "name": "Uzbek" }
       ]} />
+      <Progress />
     </div>
   )
 }

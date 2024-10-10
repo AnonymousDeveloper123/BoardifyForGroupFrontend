@@ -1,6 +1,6 @@
 button[aria-haspopup="menu"] {
     // first span
-    width: 130px!important;
+    // width: 130px!important;
     & > span:nth-child(1) {
         @apply gap-[20px] w-full justify-between;
     }

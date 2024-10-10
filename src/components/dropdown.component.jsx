@@ -3,12 +3,6 @@ import { useEffect, useState } from "react"
 
 // eslint-disable-next-line react/prop-types
 const DropdownComponent = ({items,defaultvalue,...props}) => {
-    useEffect(()=>{
-        // eslint-disable-next-line react/prop-types
-        items.map((item)=>{
-            console.log(item.name)
-        })
-    })
     const [choose,setChoose]=useState(defaultvalue ? defaultvalue : "...");
     const onChange = (item)=>[
         setChoose(item)
